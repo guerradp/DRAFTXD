@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XD - Celebrating Filipino Culture</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>XD</h1>
+      <button class="burger-menu" onclick="toggleMenu()">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#heritage">Heritage</a></li>
+          <li><a href="#subtopics">Subtopics</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Welcome to XD</h2>
+      <p>Experience the beauty and depth of Filipino culture.</p>
+    </section>
+
+
+    <section id="heritage">
+      <h2>Filipino Heritage</h2>
+      <p>Dive into centuries of traditions, art, and history that shaped the Philippines.</p>
+    </section>
+
+
+    <section id="subtopics">
+      <h2>Subtopics</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Iwas Sawi</h3>
+          <p>Learn traditional superstitions and practices to avoid misfortune.</p>
+        </div>
+        <div class="card">
+          <h3>Alam-at</h3>
+          <p>Explore the rich tapestry of Filipino myths and folklore.</p>
+        </div>
+        <div class="card">
+          <h3>Outer Space</h3>
+          <p>Discover how Filipino culture blends science and imagination.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="formResponse"></p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>© 2024 XD - Celebrating Filipino Culture</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
